@@ -1,5 +1,6 @@
 Websocket for redis
 =======
+Replacement for [django-ws-redis](https://github.com/jrief/django-websocket-redis) daemon.
 
 ### Building
 You need [installed go compilator](http://golang.org/doc/install)
