@@ -33,3 +33,22 @@ Usage of ws4redis:
   -strict=false: Allow only white-listed facilities
   -timeout=15s: Heartbeat timeout
 ```
+#### Statistics
+```
+$ curl localhost:9050/stat
+ws4redis
+Version 1.1-production
+Facilities 2
+	facility launcher:
+		 19605 clients
+	facility launcher-staff:
+		 0 clients
+Clients 19605
+CPU 24
+Goroutines 78431
+Memory
+	Alloc 274784024
+	TotalAlloc 61953223872
+	Heap 274784024
+	HeapSys 319307776
+```
