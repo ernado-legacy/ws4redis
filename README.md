@@ -34,6 +34,7 @@ Usage of ws4redis:
   -timeout=15s: Heartbeat timeout
 ```
 #### Statistics
+To see daemon stats just curl /stat 
 ```
 $ curl localhost:9050/stat
 ws4redis
@@ -52,3 +53,7 @@ Memory
 	Heap 274784024
 	HeapSys 319307776
 ```
+
+### Performance
+20k clients on 1 core = 600mb
+4 goroutines and 30kb per client
