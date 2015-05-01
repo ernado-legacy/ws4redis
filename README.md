@@ -56,4 +56,5 @@ Memory
 
 ### Performance
 20k clients on 1 core = 600mb
+
 4 goroutines and 30kb per client
