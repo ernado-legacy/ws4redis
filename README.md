@@ -3,7 +3,7 @@ Websocket for redis
 Replacement for [django-ws-redis](https://github.com/jrief/django-websocket-redis) daemon.
 
 ### Building
-You need [installed go compilator](http://golang.org/doc/install)
+You need [installed go compiler](http://golang.org/doc/install)
 ```bash
 go get github.com/ernado/ws4redis
 ws4redis -h
